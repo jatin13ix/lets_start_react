@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function Chai() {
-    let [counter, setCounter] = useState(15)
+    let[counter, setCounter] = useState(15)
     
     const update = () => {
-        console.log("clicked",counter);
+        // console.log("clicked",counter);
         counter += 1;
         setCounter(counter)
     }
